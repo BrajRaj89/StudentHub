@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                      https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd"
+  version="6.1"
+  metadata-complete="true">
+ 
+    <description>Styleone Application </description>
+    <display-name>Styleone Application</display-name>
+
+    <request-character-encoding>UTF-8</request-character-encoding>
+
+<servlet>
+<servlet-name>AddStudent</servlet-name>
+<servlet-class>com.student.servlets.AddStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddStudent</servlet-name>
+<url-pattern>/addStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>GetStudent</servlet-name>
+<servlet-class>com.student.servlets.GetStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GetStudent</servlet-name>
+<url-pattern>/getStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>GetStudentsName</servlet-name>
+<servlet-class>com.student.servlets.GetStudentsName</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GetStudentsName</servlet-name>
+<url-pattern>/getStudentsName</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>SearchStudent</servlet-name>
+<servlet-class>com.student.servlets.SearchStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>SearchStudent</servlet-name>
+<url-pattern>/searchStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>LoginStudent</servlet-name>
+<servlet-class>com.student.servlets.LoginStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginStudent</servlet-name>
+<url-pattern>/loginStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>RegisterStudent</servlet-name>
+<servlet-class>com.student.servlets.RegisterStudent</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RegisterStudent</servlet-name>
+<url-pattern>/registerStudent</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>GetQuestion</servlet-name>
+<servlet-class>com.student.servlets.GetQuestion</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GetQuestion</servlet-name>
+<url-pattern>/getQuestion</url-pattern>
+</servlet-mapping>
+
+</web-app>

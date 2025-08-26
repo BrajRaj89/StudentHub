@@ -1,0 +1,6 @@
+# Ignore compiled classes
+WEB-INF/classes/
+
+# Ignore build artifacts
+*.war
+*.log

@@ -1,0 +1,71 @@
+  #mainDivQuiz
+  {
+   width: 100%;
+    height:550px;
+    background-color: rgb(34, 77, 158);
+    padding-top:10px;
+    padding-left:20px;
+  }
+  #quizContainer{
+
+   width:600px;
+  height:300px;
+  background: linear-gradient(140deg,rgb(142, 109, 115),white);
+  border-radius:10px;
+ margin-left:214px;
+  margin-top:30px;
+  padding:30px;
+  overflow:auto;
+  box-shadow: 10px 10px 1px black;
+  }
+ 
+  
+  #buttonDiv
+  {
+  margin-top:-40px;
+  margin-left:220px;
+  width:580px;
+  }
+
+  #quizContainer label{
+  margin:5px;
+  width:500px;
+  border: 2px solid white;
+  background-color:whitesmoke;
+  padding:2px;
+ font-size:14px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius:3px;
+  }
+#progressBar
+{
+margin-left:5px;
+margin-right:15px;
+height:10px;
+background-color:black;
+}
+#btn
+{
+background-color:rgb(54, 54, 120);
+color:burlywood;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+float:right;
+}
+#btn:hover
+{
+transform: scale3d(1.03,1.03);
+transform: scale(1.03,1.03);
+background-color: rgb(55, 54, 54);
+}
+#head{
+width:655px;
+height: 70px;
+margin-left:322px;
+background-color:rgb(71, 106, 170);
+margin-bottom:3px;
+}
+
+#question
+{
+font-family:fantasy;
+}

@@ -1,0 +1,114 @@
+
+.containerMain
+{
+width: 400px;
+height:426px;
+font-size:12px;
+}
+
+#containerDiv
+{
+padding-top:5px;
+background-color:rgb(2, 2, 89);
+display:flex;
+justify-content:center;
+text-align:center;
+}
+.form-box {
+margin-top: 8px;
+  background:#f0f0f0;
+  border-radius: 10px;
+padding: 10px;  
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon
+{
+font-size: 35px;
+color: #7928ca;
+margin-bottom: 2px;
+}
+
+.tab-buttons
+{
+display: flex;
+margin-bottom: 10px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tab-buttons button 
+{
+  flex: 1;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background: #f0f0f0;
+}
+.tab-buttons button:hover{
+transform: scale(1.03,1.03);
+}
+
+.tab-buttons button.active {
+  background: #fff;
+  border-bottom: 2px solid #7928ca;
+  font-weight: bold;
+}
+
+.form {
+  display: none;
+  text-align: left;
+}
+
+.form.active {
+  display: block;
+}
+
+.form label {
+  display: block;
+  margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #49048e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form button:hover
+{
+background-color: #7008ca;
+transform: scale(1.03,1.04);
+}
+input.error
+{
+border: 1px solid red;
+}
+input.valid
+{
+border: 1px solid green;
+}
+#loginTab
+{
+color:black;
+}
+#registerTab
+{
+color:black;
+}
+
+    
