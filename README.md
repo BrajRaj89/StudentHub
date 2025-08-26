@@ -37,6 +37,7 @@ This application uses **MySQL** as the backend database.
 Before running the project, you must create the required tables.
 
 ### 1. Create Database
+```sql
 CREATE DATABASE studentdb;
 
 ###2.Create Tables
@@ -73,7 +74,7 @@ String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "yourpassword";
 
-
+```
 ---
 
 
