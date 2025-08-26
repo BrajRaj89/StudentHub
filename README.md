@@ -14,16 +14,16 @@ This project manages student records, quizzes, and results in a web-based UI.
 
 ---
 ##  Project Structure
-STUDENT-HUB/
-├── css/ 
-├── images/
-├── js/
-├── WEB-INF/
-│ ├── classes/ # Compiled .class files (ignored in Git)
-│ ├── lib/
-│ └── web.xml 
-├── src/ 
-├── *.jsp 
+STUDENT-HUB/ <br>
+css/    
+images/ <br>
+    js/ <br>
+    WEB-INF/ <br>
+    classes/ # Compiled .class files (ignored in Git)<br>
+    lib/<br>
+    web.xml  <br>
+    src/ <br>
+    *.jsp <br>
 
 ##  Requirements
 - **Java JDK 8+**
