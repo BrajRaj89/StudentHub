@@ -37,10 +37,9 @@ This application uses **MySQL** as the backend database.
 Before running the project, you must create the required tables.
 
 ### 1. Create Database
-```sql
 CREATE DATABASE studentdb;
 
-### 2. Create Tables
+###2.Create Tables
   CREATE TABLE options (
     id INT AUTO_INCREMENT PRIMARY KEY,
     question_id INT,
