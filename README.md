@@ -41,19 +41,18 @@ Before running the project, you must create the required tables.
 CREATE DATABASE studentdb;
 
 ### 2. Create Tables
-
-CREATE TABLE options (
+  CREATE TABLE options (
     id INT AUTO_INCREMENT PRIMARY KEY,
     question_id INT,
     option_text VARCHAR(255),
     is_correct TINYINT(1),
     FOREIGN KEY (question_id) REFERENCES questions(id)
-);
-CREATE TABLE questions (
+  );
+  CREATE TABLE questions (
     id INT AUTO_INCREMENT PRIMARY KEY,
     question_text VARCHAR(255) NOT NULL
-);
-CREATE TABLE student (
+  );
+  CREATE TABLE student (
     name VARCHAR(30) NOT NULL,
     studentId VARCHAR(30) NOT NULL UNIQUE,
     dob DATE NOT NULL,
@@ -62,8 +61,8 @@ CREATE TABLE student (
     contact BIGINT NOT NULL,
     address VARCHAR(50) NOT NULL,
     PRIMARY KEY (name)
-);
-CREATE TABLE validstudent (
+  );
+  CREATE TABLE validstudent (
     studentId VARCHAR(30) NOT NULL,
     password VARCHAR(50) NOT NULL,
     PRIMARY KEY (studentId),
@@ -74,9 +73,8 @@ CREATE TABLE validstudent (
 String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "yourpassword";
+
 ---
-
-
 ## Run Application
  1. Clone the Repository
 git clone  https://github.com/BrajRaj89/StudentHub.git
