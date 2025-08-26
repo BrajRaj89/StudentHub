@@ -70,19 +70,19 @@ CREATE TABLE validstudent (
     FOREIGN KEY (studentId) REFERENCES student(studentId)
 );
 
-
 ### 3. Update Connection
 String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "yourpassword";
-
 ---
+
+
 ## Run Application
-- 1. Clone the Repository
+ 1. Clone the Repository
 git clone  https://github.com/BrajRaj89/StudentHub.git
-- 2. set the Database
-- 3. Place the project folder in tomcat webapps/ folder
-- 4. Start Tomcat Server
-- 5. Open browser type http://localhost:8080/StudentHub
+ 2. set the Database
+ 3. Place the project folder in tomcat webapps/ folder
+ 4. Start Tomcat Server
+ 5. Open browser type http://localhost:8080/StudentHub
 
 
