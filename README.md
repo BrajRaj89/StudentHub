@@ -74,7 +74,10 @@ String url = "jdbc:mysql://localhost:3306/studentdb";
 String user = "root";
 String password = "yourpassword";
 
+
 ---
+
+
 ## Run Application
  1. Clone the Repository
 git clone  https://github.com/BrajRaj89/StudentHub.git
