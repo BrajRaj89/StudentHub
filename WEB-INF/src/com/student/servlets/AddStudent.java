@@ -30,7 +30,7 @@ preparedStatement.setString(1,name);
 preparedStatement.setString(2,studentId);
 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy");
 java.util.Date dateOfBirth= simpleDateFormat.parse(dob);
-java.sql.Date  sqlDate = new java.sql.Date(dateOfBirth.getYear(),dateOfBirth.getMonth(),dateOfBirth.getDay());
+java.sql.Date  sqlDate = new java.sql.Date(dateOfBirth.getTime());
 preparedStatement.setDate(3,sqlDate);
 preparedStatement.setString(4,email);
 preparedStatement.setString(5,college);
@@ -69,11 +69,10 @@ public void doGet(HttpServletRequest request, HttpServletResponse response)
 {
 try
 {
-response.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED, "GET method is not supported.");
+response.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED, "GET method is not supported");
 }catch(Exception e)
 {
 e.printStackTrace();
 }
 }
-
 }
