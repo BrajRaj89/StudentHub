@@ -7,12 +7,12 @@
 <p style='text-align:center;color:red'>${requestScope.message}</p>
 <script>
 setTimeout(function (){
-window.location.href = "/myproject1/addStudent.jsp"; 
+window.location.href = "${pageContext.request.contextPath}/addStudent.jsp"; 
 }, 2000);
 </script>
 </c:if>
 <div class="container">
-<form id="studentForm" method='post' action="addStudent">
+<form id="studentForm" method='post' action="${pageContext.request.contextPath}/addStudent">
 <div class="form-row">
 <label id="lb" for="firstname">First Name</label>
 <input type="text" id="firstname" name="firstname" title="Enter first name here" required>
@@ -51,6 +51,5 @@ window.location.href = "/myproject1/addStudent.jsp";
 </form>
 </div>
 <div>
-<!-- add student form ends here  -->
 </body>
 </html>

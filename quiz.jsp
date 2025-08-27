@@ -14,7 +14,7 @@
 </div>
 <div id="buttonDiv"><button id="btn" onclick="getNext()">next</button></div>
 </div>
-<form id="getResult" method="post" action="/myproject1/result.jsp">
+<form id="getResult" method="post" action="${pageContext.request.contextPath}/result.jsp">
 <input type="hidden" name='total' id='totalF'>
 <input type="hidden" name='correct' id='correctF'>
 </form>
