@@ -18,14 +18,14 @@
 <button onclick="showForm('login')" id="loginTab" class="active" >Login</button>
 <button onclick="showForm('register')" id="registerTab">Register</button>
 </div>
-<form id="loginForm" class="form active" method="post" action="/myproject1/loginStudent">
+<form id="loginForm" class="form active" method="post" action="${pageContext.request.contextPath}/loginStudent">
 <label>Student ID</label>
 <input type="text" placeholder="Enter your Student ID" name="studentId" required>
 <label>Password</label>
 <input type="text" placeholder="Enter your password" name="password" required>
 <button type="submit">Login & Start Quiz</button>
 </form>
-<form id="registerForm" class="form" method="post" action="/myproject1/registerStudent">
+<form id="registerForm" class="form" method="post" action="${pageContext.request.contextPath}/registerStudent">
 <label>Student ID</label><input type="text" placeholder="Enter your Student ID" name="studentId" required>
 <label>Create Password</label><input type="text" placeholder="Create a password" name="password" required>
 <button type="submit">Register</button>
