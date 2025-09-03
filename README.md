@@ -90,5 +90,10 @@ git clone  https://github.com/BrajRaj89/StudentHub.git
 
 https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/Homepage.png
 https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/HomepageBottom.png
-https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots
+https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/Quiz.png
+https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/Register.png
+https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/Available.png
+https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/AddStudent.png
+
+
 
