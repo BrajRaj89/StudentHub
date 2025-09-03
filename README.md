@@ -1,5 +1,5 @@
 # Student Web Application
-A  Java-based web application built with **Servlets, JSP, Tomcat, and MySQL**.  
+A  Java-based web application built with **Servlets, JSP, JSTL Tomcat, and MySQL**.  
 This project manages student records, quizzes, and results in a web-based UI.
 
 ---
