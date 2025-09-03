@@ -85,8 +85,9 @@ git clone  https://github.com/BrajRaj89/StudentHub.git
  3. Place the project folder in tomcat webapps/ folder
  4. Start Tomcat Server
  5. Open browser type http://localhost:8080/StudentHub
+    
+## Screenshots
 
-##Screenshots
 https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/Homepage.png
 https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/HomepageBottom.png
 https://github.com/BrajRaj89/StudentHub/blob/main/assets/screenshots/AddStudent.png
