@@ -1,6 +1,6 @@
 # Student Info & Quiz Management System
-A  Java-based web application built with **HTML ,CSS,JS,JQuery,Servlets, JSP, JSTL Tomcat, and MySQL**.  
-This project manages student records, quizzes, and results in a web-based UI.
+A lightweight web app for students to add, view, search their records and take quizzes.   
+A mini-project built to highlight my full-stack Java web development skills using JSP, Servlets, JSTL, and MySQL, along with frontend technologies like HTML, CSS, JavaScript and jQuery.  
 
 ---
 ## Features
