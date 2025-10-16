@@ -1,4 +1,4 @@
-# Student Web Application
+# Student Info & Quiz Management System
 A  Java-based web application built with **HTML ,CSS,JS,JQuery,Servlets, JSP, JSTL Tomcat, and MySQL**.  
 This project manages student records, quizzes, and results in a web-based UI.
 
@@ -41,7 +41,7 @@ STUDENT-HUB/
 ---
 ##  Database Setup
 
-This application uses **MySQL** as the backend database.  
+This application uses **MySQL** as the database.  
 Before running the project, you must create the required tables.
 
 ### 1. Create Database
@@ -88,8 +88,8 @@ String password = "yourpassword";
 
 ## Run Application
  1. Clone the Repository
-git clone  https://github.com/BrajRaj89/StudentHub.git
- 2. set the Database
+    git clone  https://github.com/BrajRaj89/StudentHub.git
+ 2. Create the Database
  3. Place the project folder in tomcat webapps/ folder
  4. Start Tomcat Server
  5. Open browser type http://localhost:8080/StudentHub
